@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shop</title>
+
+    <style>
+      #header {
+        float: left;
+        width: 100%;
+        height: 100px;
+        background-color: lightblue;
+        text-align: center;
+      }
+      #menu {
+        float: left;
+        width: 100%;
+        height: 50px;
+        background-color: lightgreen;
+        text-align: center;
+      }
+      #l-side {
+        float: left;
+        width: 20%;
+        min-height: 400px;
+        background-color: lightcoral;
+        text-align: center;
+      }
+      #content {
+        float: left;
+        width: 60%;
+        min-height: 400px;
+        background-color: lightgoldenrodyellow;
+      }
+      #advertise {
+        float: left;
+        width: 20%;
+        min-height: 400px;
+        background-color: lightgray;
+        text-align: center;
+      }
+      #footer {
+        float: left;
+        width: 100%;
+        height: 50px;
+        background-color: lightpink;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">header</div>
+    <div id="menu">
+      <div id="menu">
+        <a href="/index.html">Home</a> | <a href="/product.html">Product</a> |
+        <a href="/member.html">Member</a> | |
+        <a href="/signup.html">Registrasi</a>
+      </div>
+    </div>
+    <div id="l-side">left side</div>
+    <div id="content">
+      <!-- form registration -->
+      <form action="">
+        <h2>Registration Form</h2>
+        <table>
+          <tr>
+            <td><label for="fname">First Name:</label></td>
+            <td><input type="text" id="fname" name="fname" /></td>
+          </tr>
+          <tr>
+            <td><label for="lname">Last Name:</label></td>
+            <td><input type="text" id="lname" name="lname" /></td>
+          </tr>
+          <tr>
+            <td><label for="email">Email+:</label></td>
+            <td><input type="email" id="email" name="email" /></td>
+          </tr>
+          <tr>
+            <td><label for="phone">Phone:</label></td>
+            <td><input type="tel" id="phone" name="phone" /></td>
+          </tr>
+          <tr>
+            <td><label for="date">TTL:</label></td>
+            <td><input type="date" id="date" name="date" /></td>
+          </tr>
+
+          <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>
+              <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <button type="submit" value="Submit">Submit</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <div id="advertise">advertisement</div>
+    <div id="footer">footer</div>
+  </body>
+</html>

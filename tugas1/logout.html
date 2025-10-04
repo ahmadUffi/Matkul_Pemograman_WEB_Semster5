@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=
+    , initial-scale=1.0"
+    />
+
+    <style>
+      #header {
+        height: 100px;
+        background-color: lightblue;
+      }
+      .main {
+        overflow: hidden;
+        height: calc(100vh - 150px);
+      }
+      #sidebar {
+        width: 200px;
+        height: 100%;
+        background-color: lightgreen;
+        float: left;
+      }
+      #content {
+        margin-left: 200px;
+        height: 100%;
+        background-color: lightyellow;
+        padding: 20px;
+      }
+      #footer {
+        clear: both;
+        height: 50px;
+        background-color: lightcoral;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header">Header</div>
+    <div class="main">
+      <div id="sidebar">
+        <ul>
+          <li>
+            <a href="/datauser.html">
+              <div class="datauser">data user</div>
+            </a>
+          </li>
+          <li>
+            <a href="/kelolaproduk.html">
+              <div class="kelolaProduk">kelola produk</div>
+            </a>
+          </li>
+          <li>
+            <a href="/editpassword.html">
+              <div class="editPassword">edit password</div>
+            </a>
+          </li>
+          <li>
+            <a href="/logout.html">
+              <div class="logout">logout</div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="content">
+        <h1>this is Logout</h1>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+</html>
